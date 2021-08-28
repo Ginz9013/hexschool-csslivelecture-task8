@@ -1,0 +1,70 @@
+// ---首頁 Banner 區塊---
+.home-banner{
+  background: url(../images/08.jpeg)no-repeat center bottom/cover;
+  height: 582px;
+}
+
+// ---服務介紹---
+.server-pic1{
+  background: url(../images/05.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+.server-pic2{
+  background: url(../images/06.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+.server-pic3{
+  background: url(../images/07.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+
+// ---師資介紹---
+.teachers-pic{
+  background: url(../images/04.jpeg)no-repeat center center/cover;
+  height: 628px;
+}
+
+// ---環境介紹---
+.img-setting1{
+  background: url(../images/02.jpg)no-repeat center center/cover;
+  height: 444px;
+}
+
+.img-setting2{
+  background: url(../images/23.jpg)no-repeat center center/cover;
+}
+
+.img-setting3{
+  background: url(../images/27.jpg)no-repeat center center/cover;
+}
+
+
+// ---課程介紹---
+.course-Carousel{
+  overflow: auto;
+  width: 50vw;
+}
+
+.img-course1{
+  background: url(../images/24.jpg)no-repeat center center/cover;
+  height: 445px !important;
+  width: 445px !important;
+  flex-shrink: 0;
+}
+
+.img-course2{
+  background: url(../images/09.jpg)no-repeat center center/cover;
+  height: 445px;
+  width: 445px;
+  flex-shrink: 0;
+}
+
+.img-course3{
+  background: url(../images/24.jpg)no-repeat center center/cover;
+  height: 445px;
+  width: 445px;
+  flex-shrink: 0;
+}

@@ -67,20 +67,22 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #00cc99; // $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #C0A4A5 !default;
+$secondary:     #907A7B !default;
+$tertiary:      #F5F0E7 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$dark:          #707070 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
+  "tertiary":   $tertiary,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
@@ -254,7 +256,10 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 3.5,
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -267,6 +272,8 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  2: 2%,
+  40: 40%,
   50: 50%,
   100: 100%
 ) !default;
@@ -373,7 +380,7 @@ $border-color:                $gray-300 !default;
 // scss-docs-start border-radius-variables
 $border-radius:               .25rem !default;
 $border-radius-sm:            .2rem !default;
-$border-radius-lg:            .3rem !default;
+$border-radius-lg:            1rem !default;
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
 

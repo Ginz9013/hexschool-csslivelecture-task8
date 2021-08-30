@@ -1,9 +1,0 @@
-@mixin h1-logo($url, $width, $height){
-  background: url($url) no-repeat center center;
-  width: $width;
-  height: $height;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer; // 互動
-}

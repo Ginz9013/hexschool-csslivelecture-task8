@@ -273,6 +273,7 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 $position-values: (
   0: 0,
   2: 2%,
+  10: 10%,
   40: 40%,
   50: 50%,
   100: 100%

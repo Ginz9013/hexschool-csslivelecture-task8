@@ -1,0 +1,67 @@
+---
+title: Reservation - DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: reservation
+---
+
+<main>
+  <div class="container text-center py-8">
+    <h3 class="text-secondary mb-3">立即預約</h3>
+
+    <!-- 進度按鈕 -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-2"><a href="./reservation.html" class="btn btn-secondary w-100 rounded-3 btn-active text-light">選擇方案</a></div>
+      <div class="col-2"><a href="#" class="btn btn-tertiary w-100 rounded-3 disabled text-secondary">填寫資料</a></div>
+      <div class="col-2"><a href="#" class="btn btn-tertiary w-100 rounded-3 disabled text-secondary">完成預約</a></div>
+    </div>
+
+    <!-- 方案選擇 -->
+    <div class="row mb-5">
+      <div class="col-4">
+        <div class="card-plan border border-primary rounded-3 overflow-hidden">
+          <div class="img-plan1"></div>
+          <div class="p-4 text-center">
+            <h5 class="text-secondary mb-1">首次體驗</h5>
+            <p class="fs-5 text-primary mb-2">NT $450 / 次</p>
+            <p class="text-secondary mb-4">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+            <a href="./reservation-choose.html" class="btn btn-secondary w-100 text-light fs-5 fw-light">選擇課程</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-plan border border-primary rounded-3 overflow-hidden">
+          <div class="img-plan2"></div>
+          <div class="p-4 text-center">
+            <h5 class="text-secondary mb-1">短期體驗</h5>
+            <p class="fs-5 text-primary mb-2">NT $1800 / 月</p>
+            <p class="text-secondary mb-4">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</p>
+            <a href="./reservation.html" class="btn btn-secondary w-100 text-light fs-5 fw-light">選擇課程</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card-plan border border-primary rounded-3 overflow-hidden">
+          <div class="img-plan3"></div>
+          <div class="p-4 text-center">
+            <h5 class="text-secondary mb-1">長期體驗</h5>
+            <p class="fs-5 text-primary mb-2">NT $5600 / 季</p>
+            <p class="text-secondary mb-4">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</p>
+            <a href="./reservation.html" class="btn btn-secondary w-100 text-light fs-5 fw-light">選擇課程</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 預約須知 -->
+    <div class="row d-flex justify-content-center text-secondary">
+      <h3>預約須知</h3>
+      <ul class="col-6 list-unstyled text-start">
+        <li>1. 如果有特殊體質、特殊狀況，請主動告知。</li>
+        <li>2. 取消預約或時間異動請於預約日前一天晚間 21:00 前告知，預約當日請勿異動或取消，以免影響您日後再預約的個人信用及難度。</li>
+        <li>3. 為維護上課品質，請遵守 DOYOGA 各項參觀規定，未遵守規定者，本公司保留謝絕入館之權利。</li>
+        <li>4. DOYOGA 保留修改預約須知之權利，修改後的條款將公佈於本網站上，不另外個別通知。如果您繼續在本網站進行參觀預約，就表示您已經了解、並同意遵守修改後的約定條款。</li>
+      </ul>
+    </div>
+  </div>
+</main>

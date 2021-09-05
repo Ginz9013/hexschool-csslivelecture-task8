@@ -1,0 +1,127 @@
+---
+title: Reservation - 2 - DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: reservation-2
+---
+
+<main>
+  <div class="container text-center py-8">
+    <h3 class="text-secondary mb-3">立即預約</h3>
+
+    <!-- 進度按鈕 --> 
+    <div class="row justify-content-center mb-5">
+      <div class="col-4 col-md-2"><a href="./reservation.html" class="btn btn-tertiary w-100 rounded-3 text-secondary">選擇方案</a></div>
+      <div class="col-4 col-md-2"><a href="#" class="btn btn-secondary w-100 rounded-3 btn-active text-secondary text-light">填寫資料</a></div>
+      <div class="col-4 col-md-2"><a href="#" class="btn btn-tertiary w-100 rounded-3 disabled text-secondary">完成預約</a></div>
+    </div>
+
+
+    <!-- 表單填寫 -->
+    <div class="row justify-content-center">
+      <h5 class="text-primary mb-6"><span class="text-dark fs-6 me-3">您選擇的是</span>首次體驗課程-基礎</h5>
+      <div class="col-12 col-md-6 col-lg-4">
+
+        <!-- form -->
+        <form action="#" method="POST" class="text-start mb-5">
+          <!-- 問題1 -->
+          <p class="text-dark mb-3">1. 是否接觸過瑜珈?</p>
+          <div class="text-dark mb-5">
+            <input type="radio" id="experience" name="experience" value="yes">
+            <label for="experience" class="me-5">是</label>
+            <input type="radio" id="experience" name="experience" value="no">
+            <label for="experience">否</label>
+          </div>
+
+          <!-- 問題2 -->
+          <p class="text-dark mb-3">2. 想改善的生活問題?</p>
+          <div class="d-flex flex-wrap text-dark mb-5">
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="肌耐力不足" class="me-1">
+              <label for="problems">肌耐力不足</label>
+            </div>
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="柔軟度不佳" class="me-1">
+              <label for="problems">柔軟度不佳</label>
+            </div>
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="壓力大" class="me-1">
+              <label for="problems">壓力大</label>
+            </div>
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="姿勢不正" class="me-1">
+              <label for="problems">姿勢不正</label>              
+            </div>
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="睡眠品質差" class="me-1">
+              <label for="problems">睡眠品質差</label>              
+            </div>
+            <div class="d-flex align-items-center w-30 mb-3">
+              <input type="checkbox" id="problems" name="problems" value="注意力不足" class="me-1">
+              <label for="problems">注意力不足</label>
+            </div>
+          </div>
+
+          <!-- 問題3 -->
+          <p class="text-dark mb-3">3. 每週累積運動量約為多少？</p>
+          <div class="d-flex flex-wrap text-dark mb-5">
+            <div class="d-flex align-items-center w-50 mb-1">
+              <input type="radio" id="exercise" name="exercise" value="150up" class="me-1">
+              <label for="exercise">150 分鐘以上</label>
+            </div>
+            <div class="d-flex align-items-center w-50 mb-1">
+              <input type="radio" id="exercise" name="exercise" value="70-150" class="me-1">
+              <label for="exercise">75~150 分鐘</label>
+            </div>
+            <div class="d-flex align-items-center w-50 mb-1">
+              <input type="radio" id="exercise" name="exercise" value="30-70" class="me-1">
+              <label for="exercise">30~75 分鐘</label>
+            </div>
+            <div class="d-flex align-items-center w-50 mb-1">
+              <input type="radio" id="exercise" name="exercise" value="30down" class="me-1">
+              <label for="exercise">30 分鐘以下</label>
+            </div>
+          </div>
+
+          <!-- 問題4 -->
+          <p class="text-dark mb-1">4. 上課預約報到日</p>
+          <p class="text-dark mb-3 fs-7 mb-2">若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</p>
+          <input type="date" class="mb-5">
+          
+          <!-- 問題5 -->
+          <p class="text-dark mb-3">5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+          <div class="d-flex flex-wrap text-secondary">
+            <div class="w-50 mb-3">
+              <label for="name">姓名</label>
+              <input type="text" id="name" name="name" placeholder="請輸入您的姓名">
+            </div>
+            <div class="w-50 mb-3">
+              <label for="age">年齡</label>
+              <input type="number" id="age" name="age" placeholder="請輸入您的年齡">
+            </div>
+            <div class="w-100 mb-3">
+              <label for="sex">性別</label>
+              <select name="sex" id="sex">
+                <option value="male">男</option>
+                <option value="female">女</option>
+              </select>
+            </div>
+            <div class="w-100 mb-3">
+              <label for="email">電子信箱</label>
+              <input type="email" id="email" name="email" placeholder="Doyoga@email.com">
+            </div>
+            <div class="w-100 mb-3">
+              <label for="tel">手機號碼</label>
+              <input type="text" id="tel" name="tel" placeholder="0912-345-678">
+            </div>
+          </div>
+
+          
+
+        </form>
+        <a href="./reservation-done.html" class="btn btn-primary w-100 text-light">送出</a>
+      </div>
+    </div>
+    
+  </div>
+</main>

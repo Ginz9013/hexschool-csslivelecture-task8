@@ -1,0 +1,54 @@
+---
+title: contact_us - DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: contact_us
+---
+
+<main>
+  <div class="container py-8">
+    <div class="row justify-content-center">
+      <h3 class="text-center text-secondary mb-5">聯絡我們</h3>
+
+      <!-- 地圖資訊 -->
+      <div class="col-12 col-md-10 col-lg-7 mb-6">
+        <div class="overflow-hidden rounded-3 mb-4">
+          <img src="./assets/images/map.png" alt="location" class="img-fluid">
+        </div>
+        <div class="col-6 text-secondary">
+          <h4>DOYOGA 教室位置</h4>
+          <p class="mb-2">高雄市苓雅區北信街 23 號 2 樓</p>
+          <p class="mb-0">如何前往：</p>
+          <ul class="list-unstyled">
+            <li class="mb-4">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+            <li class="mb-4">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+            <li>3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--  聯絡表單 -->
+      <div class="col-12 col-md-10 col-lg-5">
+        <form action="#" class="bg-tertiary rounded-3 p-5 text-secondary">
+          <h5 class="mb-4">意見回饋&問題詢問</h5>
+
+          <label for="name" class="mb-2">姓名</label>
+          <input type="text" id="name" placeholder="請輸入您的姓名" class="w-100 mb-3">
+
+          <label for="email" class="mb-2">電子信箱</label>
+          <input type="text" id="email" placeholder="email@example.com" class="w-100 mb-3">
+
+          <label for="tel" class="mb-2">手機號碼</label>
+          <input type="tel" id="tel" placeholder="0912-345-678" class="w-100 mb-3">
+
+          <label for="feedback" class="mb-2">意見回饋</label>
+          <textarea name="feedback" id="feedback" cols="30" rows="10" class="w-100 mb-3"></textarea>
+
+          <div class="d-flex justify-content-end mt-4">
+            <input type="submit" class="btn btn-secondary text-light">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>

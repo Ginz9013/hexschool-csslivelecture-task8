@@ -1,0 +1,17 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/utilities";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "./helpers/base";
+
+
+@import "./helpers/mixin";
+
+@import './layout/layout.scss';
+
+@import "./pages/index";
+@import "./pages/course";
+@import "./pages/curriculum";
+@import "./pages/reservation";
+@import "./pages/reservation-choose";
+@import "./pages/surroundings";

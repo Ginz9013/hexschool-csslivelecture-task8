@@ -1,0 +1,10 @@
+.curriculum{
+  width: 1000px;
+}
+
+.notice-width{
+  width: 100%;
+  @media(min-width: 993px){
+    width: 75%;
+  }
+}

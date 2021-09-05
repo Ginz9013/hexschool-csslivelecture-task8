@@ -1,0 +1,130 @@
+// ------圖片------
+
+// 首頁 Banner 區塊
+.home-banner{
+  background: url(../images/08.jpeg)no-repeat center bottom/cover;
+  height: 582px;
+}
+
+// 服務介紹
+.service-pic1{
+  background: url(../images/05.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+.service-pic2{
+  background: url(../images/06.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+.service-pic3{
+  background: url(../images/07.jpeg)no-repeat center center/cover;
+  height: 420px;
+}
+
+
+// 師資介紹
+.teachers-pic{
+  background: url(../images/04.jpeg)no-repeat center center/cover;
+  height: 628px;
+}
+
+// 環境介紹
+.img-setting1{
+  background: url(../images/02.jpg)no-repeat center center/cover;
+  height: 266px;
+  @media(min-width: 993px){
+    height: 444px;
+  }
+}
+
+.img-setting2{
+  background: url(../images/23.jpg)no-repeat center center/cover;
+}
+
+.img-setting3{
+  background: url(../images/27.jpg)no-repeat center center/cover;
+}
+
+
+// 課程介紹
+
+.img-course-home{
+  @media(min-width: 993px){
+    width: 50vw;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+}
+
+.img-course-home1{
+  background: url(../images/04.jpeg)no-repeat center center/cover;
+  height: 165px;
+  @media(min-width: 993px){
+    height: 445px;
+  }
+}
+.img-course-home2{
+  background: url(../images/09.jpg)no-repeat center center/cover;
+  height: 165px;
+  @media(min-width: 993px){
+    height: 445px;
+  }
+}
+.img-course-home3{
+  background: url(../images/26.jpg)no-repeat center center/cover;
+  height: 165px;
+  @media(min-width: 993px){
+    height: 445px;
+  }
+}
+.img-course-home4{
+  background: url(../images/29.jpg)no-repeat center center/cover;
+  height: 165px;
+  @media(min-width: 993px){
+    height: 445px;
+  }
+}
+
+// 方案選擇
+.img-plan-home1{
+  background: url(../images/29.jpg)no-repeat center center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.img-plan-home2{
+  background: url(../images/31.jpg)no-repeat center center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+.img-plan-home3{
+  background: url(../images/28.jpg)no-repeat center center/cover;
+  height: 250px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+// ------其他------
+
+.card-teachers-first{
+  @media(min-width: 769px){
+    width: 120%;
+  }
+}
+
+.feedback-area{
+  width: 100%;
+  @media(min-width: 769px){
+    width: 151%;
+  }
+  @media(min-width: 993px){
+    width: 100%;
+  }
+}

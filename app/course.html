@@ -1,0 +1,126 @@
+---
+title: Course - DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: course
+---
+
+<main>
+  <!-- 課程介紹 -->
+  <div class="container py-8">
+    <h3 class="text-center text-secondary mb-5">課程介紹</h3>
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <div class="img-course-introduce rounded-3"></div>
+      </div>
+      <div class="col-5">
+        <h3 class="text-secondary">本月限定課程 - 空中瑜珈</h3>
+        <div class="d-flex align-items-center mb-3">
+          <p class="text-primary">授課老師：Carol Tang</p>
+          <p class="bg-secondary rounded-pill text-light fw-light px-3 py-1 ms-2">60 min</p>
+        </div>
+        <p class="text-secondary lh-lg">
+          使用掛布懸掛在半空，進行哈達瑜珈體位法練習 藉由地心引力的重力原理 鍛鍊核心肌群，舒緩脊椎壓力 訓練身體協調性，深層放鬆身體 課堂裡老師會視同學狀況安排教導倒立動作 對於不敢嘗試倒立的同學來說 藉由掛布的支持與保護 加上老師細心指導，讓同學能更快掌握
+        </p>
+        <a href="#" class="btn btn-primary text-light">立即預約</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 課程搜尋列 -->
+  <div class="bg-primary py-4">
+    <div class="container">
+      <form action="#">
+        <div class="row">
+          <div class="col-4 d-flex">
+            <input type="text" name="course" id="course" placeholder="請輸入要尋找的課程" class="form-control">
+            <input type="submit" value="搜尋" class="btn btn-secondary text-light">
+          </div>
+          <select name="course" id="course" class="col-2 rounded-2 text-secondary">
+            <option value="all">全部課程</option>
+            <option value="Basic">基礎 Basic</option>
+            <option value="Iyengar">艾揚格 Iyengar</option>
+            <option value="Hatha">哈達 Hatha</option>
+            <option value="Universal">寰宇 Universal</option>
+            <option value="Arco-Yoga">雙人飛行 Arco Yoga</option>
+            <option value="Ashtanga">阿斯坦加 Ashtanga</option>
+            <option value="Yin-Yang">陰陽 Yin Yang</option>
+            <option value="Aroma-Yoga">香氛 Aroma Yoga</option>
+          </select>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 課程列表 -->
+  <div class="container py-8">
+    <div class="row">
+      <div class="col-9">
+        <div class="row course-list text-light">
+          <div class="col-7">
+            <a href="#" class="img-course-list1 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>基礎 Basic</h3>
+              <p class="mb-0">授課老師：Carol Tang</p>              
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="#" class="img-course-list2 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>艾揚格 Iyengar</h3>
+              <p class="mb-0">授課老師：Kanae</p>              
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="#" class="img-course-list3 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>哈達 Hatha</h3>
+              <p class="mb-0">授課老師：Kuzuha</p>              
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="#" class="img-course-list4 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>寰宇 Universal</h3>
+              <p class="mb-0">授課老師：Kuzuha</p>              
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="#" class="img-course-list5 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>雙人飛行 Arco Yoga</h3>
+              <p class="mb-0">授課老師：Kuzuha、Kanae</p>              
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="#" class="img-course-list6 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>阿斯坦加 Ashtanga</h3>
+              <p class="mb-0">授課老師：Kanae</p>              
+            </a>
+          </div>
+          <div class="col-5">
+            <a href="#" class="img-course-list7 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>陰陽 Yin Yang</h3>
+              <p class="mb-0">授課老師：Asa Chen</p>              
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="#" class="img-course-list8 d-flex flex-column justify-content-end position-relative rounded-3 text-light text-decoration-none p-4 mb-5">
+              <h3>香氛 Aroma Yoga</h3>
+              <p class="mb-0">授課老師：Asa Chen</p>              
+            </a>
+          </div>       
+        </div>  
+      </div>
+      <div class="col-3 text-secondary">
+        <h5>DOYOGA 上課須知：</h5>
+        <p class="lh-lg">
+          請攜帶適當的瑜珈墊和一條長毛巾配合課程使用。
+          <br>
+          運動中請穿著有彈性、吸汗、透氣為原則的衣物，盡量穿著較貼身的運動衣，以便教練指導與自我矯正。
+          <br>
+          運動中切記補充適當的水分、保持腹式呼吸，以鼻吸氣，以口呼氣為原則。
+          <br>
+          運動中請保持微收小腹的原則，肩膀放鬆、頭頂向上延伸，請跟隨教練指示，配合呼吸一步步的確實練習。
+          <br>
+          運動過程中若感到任何不適，請馬上停止且與老師商量討論。 若懷孕或特殊疾病請先告知。
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,9 @@
+.course-class{
+  width: 100%;
+  @media(min-width: 769px){
+    width: 600px;
+  }
+  // @media(min-width: 993px){
+  //   width: 30%;
+  // }
+}

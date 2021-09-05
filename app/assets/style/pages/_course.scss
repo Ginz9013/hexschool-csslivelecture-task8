@@ -1,0 +1,51 @@
+.course-list{
+  a::before{
+    content: "60 min";
+    background: $primary;
+    border-radius: 16px;
+    padding: 4px 16px;
+    position: absolute;
+    top: -14px;
+    left: 24px;
+  }
+}
+
+// --- 課程介紹 ---
+.img-course-introduce{
+  background: url(../images/04.jpeg)no-repeat center center/cover;
+  height: 340px;
+}
+
+// ---課程列表---
+.img-course-list1{
+  background: url(../images/09.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list2{
+  background: url(../images/24.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list3{
+  background: url(../images/26.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list4{
+  background: url(../images/29.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list5{
+  background: url(../images/15.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list6{
+  background: url(../images/25.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list7{
+  background: url(../images/30.jpg)no-repeat center center/cover;
+  height: 196px;
+}
+.img-course-list8{
+  background: url(../images/02.jpg)no-repeat center center/cover;
+  height: 196px;
+}

@@ -1,0 +1,9 @@
+*::placeholder{
+  color: $primary;
+}
+
+input, textarea{
+  outline: none;
+  border: 1px solid $primary;
+  border-radius: 4px;
+}

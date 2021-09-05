@@ -11,23 +11,33 @@
   </head>
 
   <body>
+    <!-- 懸浮SNS標籤 -->
+    <ul class="list-unstyled position-fixed end-2 top-40 d-none d-lg-block">
+      <li class="mb-2"><a href="#"><i class="fab fa-facebook fs-1 text-secondary"></i></a></li>
+      <li class="mb-2"><a href="#"><i class="fab fa-instagram fs-1 text-secondary"></i></a></li>
+      <li><a href="#"><i class="fab fa-line fs-1 text-secondary"></i></a></li>
+    </ul>
+
+
     <header class="bg-tertiary">
-      <div class="container d-flex justify-content-between align-items-center py-3">
+      <div class="container d-flex justify-content-between align-items-center py-4 py-lg-3">
         <!-- 標題 -->
         <h1 class="mb-0"><a href="./index.html"><img src="./assets/images/DOYOGA-logo.png" alt="DOYOGA"></a></h1>
   
         <!-- 主要選單 -->
-        <ul class="d-flex list-unstyled mb-0">
-          <li><a href="#" class="me-5 link-dark fw-light text-decoration-none">課程介紹</a></li>
-          <li><a href="#" class="me-5 link-dark fw-light text-decoration-none">瑜伽空間</a></li>
-          <li><a href="#" class="link-dark fw-light text-decoration-none">當月課表</a></li>
+        <ul class="d-lg-flex d-none list-unstyled d-none d-lg-block mb-0">
+          <li><a href="./course.html" class="me-5 link-dark fw-light text-decoration-none">課程介紹</a></li>
+          <li><a href="./surroundings.html" class="me-5 link-dark fw-light text-decoration-none">瑜伽空間</a></li>
+          <li><a href="./curriculum.html" class="link-dark fw-light text-decoration-none">當月課表</a></li>
         </ul>
   
         <!-- 行動選單 -->
-        <ul class="d-flex list-unstyled mb-0">
-          <li><a href="#" class="btn btn-outline-secondary rounded-pill fw-light me-3">立即預約</a></li>
-          <li><a href="#" class="btn btn-outline-secondary rounded-pill fw-light">聯絡我們</a></li>
+        <ul class="d-lg-flex d-none list-unstyled  mb-0">
+          <li><a href="./reservation.html" class="btn btn-outline-secondary rounded-pill fw-light me-3">立即預約</a></li>
+          <li><a href="./contact_us.html" class="btn btn-outline-secondary rounded-pill fw-light">聯絡我們</a></li>
         </ul>
+
+        <a href="#" class="d-lg-none"><i class="fas fa-bars fa-3x text-secondary"></i></a>
       </div>
     </header>
     
@@ -39,16 +49,16 @@
 
     <!-- 進度按鈕 --> 
     <div class="row justify-content-center mb-5">
-      <div class="col-2"><a href="./reservation.html" class="btn btn-tertiary w-100 rounded-3 text-secondary">選擇方案</a></div>
-      <div class="col-2"><a href="#" class="btn btn-secondary w-100 rounded-3 btn-active text-secondary text-light">填寫資料</a></div>
-      <div class="col-2"><a href="#" class="btn btn-tertiary w-100 rounded-3 disabled text-secondary">完成預約</a></div>
+      <div class="col-4 col-md-2"><a href="./reservation.html" class="btn btn-tertiary w-100 rounded-3 text-secondary">選擇方案</a></div>
+      <div class="col-4 col-md-2"><a href="#" class="btn btn-secondary w-100 rounded-3 btn-active text-secondary text-light">填寫資料</a></div>
+      <div class="col-4 col-md-2"><a href="#" class="btn btn-tertiary w-100 rounded-3 disabled text-secondary">完成預約</a></div>
     </div>
 
 
     <!-- 表單填寫 -->
     <div class="row justify-content-center">
       <h5 class="text-primary mb-6"><span class="text-dark fs-6 me-3">您選擇的是</span>首次體驗課程-基礎</h5>
-      <div class="col-4">
+      <div class="col-12 col-md-6 col-lg-4">
 
         <!-- form -->
         <form action="#" method="POST" class="text-start mb-5">
@@ -159,22 +169,22 @@
 
       <!-- 信箱訂閱 -->
       <div class="container border-bottom">
-        <div class="row py-5">
-          <div class="col-8">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-12 d-lg-flex justify-content-between py-5 pe-lg-0">
             <h2 class="fs-3 text-light">現在訂閱，獲得課程優惠碼！</h2>
+            <form class="d-flex">
+              <input type="email" name="email" id="email" placeholder="請輸入您的信箱" class="form-control">
+              <input type="submit" value="訂閱" class="btn btn-primary text-light">
+            </form>
           </div>
-          <form class="col-4 d-flex">
-            <input type="email" name="email" id="email" placeholder="請輸入您的信箱" class="form-control">
-            <input type="submit" value="訂閱" class="btn btn-primary text-light">
-          </form>
         </div>
       </div>
 
       <!-- Footer -->
-      <div class="container d-flex justify-content-between py-5">
-        
-        <!-- 資訊欄 -->
-        <nav>
+      <div class="container d-flex py-5 position-relative">
+        <div class="row w-100">
+          <!-- 資訊欄 -->
+        <nav class="col-12 col-lg-4">
           <h3><a href="./index.html"><img src="./assets/images/DOYOGA.png" alt="DOYOGA"></a></h3>
 
           <ul class="list-unstyled">
@@ -185,17 +195,19 @@
         </nav>
 
         <!-- Copyright -->
-        <p class="mb-0 text-light align-self-end">© 2021. All Rights Reserved.</p>
+        <p class="col-12 col-lg-4 mb-0 text-light text-lg-center align-self-end">© 2021. All Rights Reserved.</p>
+        </div>
+        
+        
 
         <!-- SNS -->
-        <ul class=" d-flex list-unstyled">
+        <ul class=" d-flex list-unstyled position-absolute end-0">
           <li class="me-2"><a href="#"><i class="fab fa-facebook fs-4 text-light"></i></a></li>
           <li class="me-2"><a href="#"><i class="fab fa-instagram fs-4 text-light"></i></a></li>
           <li><a href="#"><i class="fab fa-line fs-4 text-light"></i></a></li>
         </ul>
       </div>
     </footer>
-
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

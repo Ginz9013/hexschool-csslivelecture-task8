@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Reservation - Done - DOYOGA</title>
+    <title>contact_us - DOYOGA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
@@ -44,65 +44,50 @@
 
     
 <main>
-  <div class="container text-center py-8">
-    <h3 class="text-secondary mb-3">立即預約</h3>
+  <div class="container py-8">
+    <div class="row justify-content-center">
+      <h3 class="text-center text-secondary mb-5">聯絡我們</h3>
 
-    <!-- 進度按鈕 -->
-    <div class="row justify-content-center mb-5">
-      <div class="col-4 col-md-2"><a href="./reservation.html" class="btn btn-tertiary w-100 rounded-3 text-secondary">選擇方案</a></div>
-      <div class="col-4 col-md-2"><a href="./reservation-2.html" class="btn btn-tertiary w-100 rounded-3 text-secondary">填寫資料</a></div>
-      <div class="col-4 col-md-2"><a href="#" class="btn btn-secondary w-100 rounded-3 btn-active text-secondary text-light">完成預約</a></div>
-    </div>
-
-    <!-- 預約資訊 -->
-    <div class="row justify-content-center text-secondary mb-4">
-      <i class="far fa-check-circle fa-3x mb-4"></i>
-      <h5 class="fw-light mb-5">已完成預約，以下是您的預約資訊:</h5>
-
-      <div class="col-12 col-md-8 col-lg-6">
-        <!-- Component-手風琴 -->
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                預約資訊
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body text-start">
-                <h5 class="text-primary mb-3"><span class="fs-6 text-secondary me-2">您預約的是</span>首次體驗課程-基礎</h5>
-                <ul class="list-unstyled text-secondary">
-                  <li class="mb-2">上課預約報到日：2021/07/21</li>
-                  <li class="mb-2">預約人：Joanne Chen</li>
-                  <li class="mb-2">年齡：18 歲</li>
-                  <li class="mb-2">性別：女</li>
-                  <li class="mb-2">電子信箱：example123@gmail.com</li>
-                  <li class="mb-2">手機號碼：0912-345-678</li>
-                </ul>
-
-              </div>
-            </div>
-          </div>          
+      <!-- 地圖資訊 -->
+      <div class="col-12 col-md-10 col-lg-7 mb-6">
+        <div class="overflow-hidden rounded-3 mb-4">
+          <img src="./assets/images/map.png" alt="location" class="img-fluid">
+        </div>
+        <div class="col-6 text-secondary">
+          <h4>DOYOGA 教室位置</h4>
+          <p class="mb-2">高雄市苓雅區北信街 23 號 2 樓</p>
+          <p class="mb-0">如何前往：</p>
+          <ul class="list-unstyled">
+            <li class="mb-4">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+            <li class="mb-4">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+            <li>3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+          </ul>
         </div>
       </div>
-    </div>
 
+      <!--  聯絡表單 -->
+      <div class="col-12 col-md-10 col-lg-5">
+        <form action="#" class="bg-tertiary rounded-3 p-5 text-secondary">
+          <h5 class="mb-4">意見回饋&問題詢問</h5>
 
-    <!-- 上課注意事項 -->
-    <div class="row justify-content-center text-secondary mb-5">
-      <h5>上課注意事項</h5>
-      <p class="col-12 col-md-6 col-lg-4 text-start fw-light">
-        第一次上課請提前 10-15 分鐘至櫃檯報到，請攜帶毛巾、水 .穿著運動服、乾淨室內運動鞋。 如欲更改體驗時間請提前通知我們喔！
-      </p>
-    </div>
+          <label for="name" class="mb-2">姓名</label>
+          <input type="text" id="name" placeholder="請輸入您的姓名" class="w-100 mb-3">
 
-    <!-- 繼續預約 -->
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-4">
-        <a href="./index.html" class="btn btn-primary w-100 text-light">返回首頁</a>
+          <label for="email" class="mb-2">電子信箱</label>
+          <input type="text" id="email" placeholder="email@example.com" class="w-100 mb-3">
+
+          <label for="tel" class="mb-2">手機號碼</label>
+          <input type="tel" id="tel" placeholder="0912-345-678" class="w-100 mb-3">
+
+          <label for="feedback" class="mb-2">意見回饋</label>
+          <textarea name="feedback" id="feedback" cols="30" rows="10" class="w-100 mb-3"></textarea>
+
+          <div class="d-flex justify-content-end mt-4">
+            <input type="submit" class="btn btn-secondary text-light">
+          </div>
+        </form>
       </div>
     </div>
-    
   </div>
 </main>
 

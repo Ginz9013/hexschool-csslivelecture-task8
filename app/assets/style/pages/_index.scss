@@ -1,5 +1,17 @@
 // ------圖片------
 
+.h1-logo{
+  background: url(../images/DOYOGA-logo.png) no-repeat center center;
+  width: 193px;
+  height: 61px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer; // 互動
+}
+
+
 // 首頁 Banner 區塊
 .home-banner{
   background: url(../images/08.jpeg)no-repeat center bottom/cover;

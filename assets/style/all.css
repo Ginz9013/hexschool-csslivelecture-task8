@@ -7734,6 +7734,10 @@ fieldset:disabled .btn {
   top: 100% !important;
 }
 
+.top-m47 {
+  top: -47px !important;
+}
+
 .bottom-0 {
   bottom: 0 !important;
 }
@@ -7756,6 +7760,10 @@ fieldset:disabled .btn {
 
 .bottom-100 {
   bottom: 100% !important;
+}
+
+.bottom-m47 {
+  bottom: -47px !important;
 }
 
 .start-0 {
@@ -7782,6 +7790,10 @@ fieldset:disabled .btn {
   left: 100% !important;
 }
 
+.start-m47 {
+  left: -47px !important;
+}
+
 .end-0 {
   right: 0 !important;
 }
@@ -7804,6 +7816,10 @@ fieldset:disabled .btn {
 
 .end-100 {
   right: 100% !important;
+}
+
+.end-m47 {
+  right: -47px !important;
 }
 
 .translate-middle {
@@ -7948,6 +7964,10 @@ fieldset:disabled .btn {
   width: auto !important;
 }
 
+.w-150px {
+  width: 150px !important;
+}
+
 .mw-100 {
   max-width: 100% !important;
 }
@@ -7982,6 +8002,10 @@ fieldset:disabled .btn {
 
 .h-auto {
   height: auto !important;
+}
+
+.h-418 {
+  height: 418px !important;
 }
 
 .mh-100 {
@@ -12854,6 +12878,17 @@ input, textarea {
   font-weight: 400;
 }
 
+.h1-logo {
+  background: url(../images/DOYOGA-logo.png) no-repeat center center;
+  width: 193px;
+  height: 61px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
 .home-banner {
   background: url(../images/08.jpeg) no-repeat center bottom/cover;
   height: 582px;
@@ -13044,6 +13079,35 @@ input, textarea {
 .img-course-list8 {
   background: url(../images/02.jpg) no-repeat center center/cover;
   height: 196px;
+}
+
+.img-teachers-photo1 {
+  background: url(../images/11.png) no-repeat center center/cover;
+  width: 94px;
+  height: 94px;
+}
+
+.img-teachers-photo2 {
+  background: url(../images/12.png) no-repeat center center/cover;
+  width: 94px;
+  height: 94px;
+}
+
+.img-teachers-photo3 {
+  background: url(../images/13.png) no-repeat center center/cover;
+  width: 94px;
+  height: 94px;
+}
+
+.img-teachers-photo4 {
+  background: url(../images/14.png) no-repeat center center/cover;
+  width: 94px;
+  height: 94px;
+}
+
+.img-course-detail {
+  background: url(../images/04.jpeg) no-repeat center center/cover;
+  height: 418px;
 }
 
 .curriculum {
